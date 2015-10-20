@@ -1,5 +1,8 @@
-function makeBuffer() {
+function makeBuffer(value) {
     // your code goes here
+    function buffer() {
+        return makeBuffer;
+    }
 }
 
 var buffer = makeBuffer();
