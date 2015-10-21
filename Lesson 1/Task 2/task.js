@@ -1,8 +1,11 @@
+var values;
 function makeBuffer(value) {
-    // your code goes here
-    function buffer() {
+
+    function secondbuffer() {
+         values=values+value;
         return makeBuffer;
     }
+    return values;
 }
 
 var buffer = makeBuffer();
